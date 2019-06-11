@@ -1,7 +1,7 @@
 
-public class NtfCommand implements Command {
+public class NtfCommand extends Comandos implements Command {
 
-	public String codusu;
+	//public String codusu;
 	@Override
 	public void execute(String codigo) {
 		codusu = codigo.substring(0, 3);

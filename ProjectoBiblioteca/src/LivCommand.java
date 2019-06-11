@@ -1,7 +1,7 @@
 
-public class LivCommand implements Command {
+public class LivCommand extends Comandos implements Command {
 
-	public String codliv;
+	//public String codliv;
 	@Override
 	public void execute(String codigo) {
 		codliv = codigo.substring(0, 3);

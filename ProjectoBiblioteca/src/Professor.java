@@ -1,6 +1,5 @@
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Iterator;
 
 public class Professor extends Usuario implements Observer{
 	public int contNotif = 0;

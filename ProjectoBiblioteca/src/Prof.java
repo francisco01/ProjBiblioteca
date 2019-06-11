@@ -1,6 +1,3 @@
-import java.util.Date;
-import java.util.Iterator;
-
 public class Prof implements ComportamentoEmp {
 
 	@Override

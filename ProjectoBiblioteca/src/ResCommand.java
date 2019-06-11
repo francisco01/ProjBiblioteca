@@ -1,8 +1,8 @@
 
-public class ResCommand implements Command {
+public class ResCommand extends Comandos implements Command {
 
-	public String codusu;
-	public String codliv;
+	//public String codusu;
+	//public String codliv;
 	@Override
 	public void execute(String codigo) {
 		codusu = codigo.substring(0, 3);
